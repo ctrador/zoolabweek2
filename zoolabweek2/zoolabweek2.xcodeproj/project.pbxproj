@@ -13,6 +13,11 @@
 		4489FDDA1DB0459F0063E7D9 /* people.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4489FDD91DB0459F0063E7D9 /* people.swift */; };
 		4489FDDC1DB095770063E7D9 /* zooInteractive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4489FDDB1DB095770063E7D9 /* zooInteractive.swift */; };
 		4489FDDE1DB09F1A0063E7D9 /* employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4489FDDD1DB09F1A0063E7D9 /* employee.swift */; };
+		4489FDE01DB122C20063E7D9 /* guest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4489FDDF1DB122C20063E7D9 /* guest.swift */; };
+		4489FDF71DB135C90063E7D9 /* animals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4489FDF61DB135C90063E7D9 /* animals.swift */; };
+		4489FDF91DB13DDC0063E7D9 /* birds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4489FDF81DB13DDC0063E7D9 /* birds.swift */; };
+		4489FDFB1DB147630063E7D9 /* fish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4489FDFA1DB147630063E7D9 /* fish.swift */; };
+		4489FDFD1DB14F080063E7D9 /* snake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4489FDFC1DB14F070063E7D9 /* snake.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +40,11 @@
 		4489FDD91DB0459F0063E7D9 /* people.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = people.swift; sourceTree = "<group>"; };
 		4489FDDB1DB095770063E7D9 /* zooInteractive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = zooInteractive.swift; sourceTree = "<group>"; };
 		4489FDDD1DB09F1A0063E7D9 /* employee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = employee.swift; sourceTree = "<group>"; };
+		4489FDDF1DB122C20063E7D9 /* guest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = guest.swift; sourceTree = "<group>"; };
+		4489FDF61DB135C90063E7D9 /* animals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = animals.swift; sourceTree = "<group>"; };
+		4489FDF81DB13DDC0063E7D9 /* birds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = birds.swift; sourceTree = "<group>"; };
+		4489FDFA1DB147630063E7D9 /* fish.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fish.swift; sourceTree = "<group>"; };
+		4489FDFC1DB14F070063E7D9 /* snake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = snake.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +83,11 @@
 				4489FDD71DB03A900063E7D9 /* zoo.swift */,
 				4489FDDB1DB095770063E7D9 /* zooInteractive.swift */,
 				4489FDDD1DB09F1A0063E7D9 /* employee.swift */,
+				4489FDDF1DB122C20063E7D9 /* guest.swift */,
+				4489FDF61DB135C90063E7D9 /* animals.swift */,
+				4489FDF81DB13DDC0063E7D9 /* birds.swift */,
+				4489FDFA1DB147630063E7D9 /* fish.swift */,
+				4489FDFC1DB14F070063E7D9 /* snake.swift */,
 			);
 			path = zoolabweek2;
 			sourceTree = "<group>";
@@ -136,9 +151,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4489FDDA1DB0459F0063E7D9 /* people.swift in Sources */,
+				4489FDFB1DB147630063E7D9 /* fish.swift in Sources */,
 				4489FDD81DB03A900063E7D9 /* zoo.swift in Sources */,
+				4489FDFD1DB14F080063E7D9 /* snake.swift in Sources */,
 				4489FDD61DB029F90063E7D9 /* io.swift in Sources */,
+				4489FDE01DB122C20063E7D9 /* guest.swift in Sources */,
 				4489FDDE1DB09F1A0063E7D9 /* employee.swift in Sources */,
+				4489FDF91DB13DDC0063E7D9 /* birds.swift in Sources */,
+				4489FDF71DB135C90063E7D9 /* animals.swift in Sources */,
 				4489FDCD1DB0271A0063E7D9 /* main.swift in Sources */,
 				4489FDDC1DB095770063E7D9 /* zooInteractive.swift in Sources */,
 			);

@@ -10,7 +10,7 @@ import Foundation
 
 private var employee = Employee()
 //private var people = People()
-
+private var guest = Guest()
 class People: Zoo {
 
     //private var Interactive = ZooInteractive()
@@ -21,17 +21,17 @@ class People: Zoo {
    // private var employee = Employee()
    // private var people = People()
    
-    func go(){
+    func peopleGo(){
         
     
     while !done {
     
-    io.writeMessage("\nWelcome to the people Menu:\nto for guests type: guest\n Employee: type employee\nfor help type help\nto Quit type quit")
+    io.writeMessage("\nWelcome to the people Menu:\n for guests type: guest\n Employee: type employee\nfor help type help\nto Quit type quit\n back to main menu type: back")
     currentInput = io.getInput()
     
     if currentInput == "quit" {
     done = true
-    } else if currentInput == "emplyoee" {
+    } else if currentInput == "employee" {
     // Check In
     
     employee.employeeMenu()
@@ -40,12 +40,17 @@ class People: Zoo {
     //check out
     
     
-    
+    guest.guestMenu()
+        
     } else if currentInput == "help"{
     //io.writeMessage("for guests type: guest\n For Emploees: type emploees\nfor help type help\nto Quit type quit")
     
     zoo.peopleHelp()
     
+    }else if currentInput == "back"{
+     
+        interactive.go()
+        
     }else {
     print("The only responces are quit; people; animals;help \(currentInput)  is not an option")
     }

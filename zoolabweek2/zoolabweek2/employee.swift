@@ -23,24 +23,28 @@ class Employee: People{
         
         while !done {
             
-            io.writeMessage("\nWelcome to the emplyoee Menu:\nto add new employee type: add employee\n Employee: type employee\nfor help type help\nto Quit type quit")
+            io.writeMessage("\nWelcome to the employee Menu:\n to add new employee type: add employee\n to list Employee type: list employee\nfor help type help\nto Quit type quit\n back type:back")
             currentInput = io.getInput()
             
             if currentInput == "quit" {
                 done = true
-            } else if currentInput == "add new employee" {
+            } else if currentInput == "add employee" {
                 
                 
-              //  zoo.addNewEmployee()
+                zoo.addNewEmployee()
                 
             }else if currentInput == "list employee"{
                 
-               // zoo.ListEmployeesAtZoo()
+                zoo.listEmployeesAtZoo()
                 
             } else if currentInput == "help"{
-                io.writeMessage("for guests type: guest\n For Employee: type employee\nfor help type help\nto Quit type quit")
+              //  io.writeMessage("for guests type: guest\n For Employee: type employee\nfor help type help\nto Quit type quit\n back type: back")
                 
-                return
+            zoo.employeeHelp()
+                
+            } else if currentInput == "back"{
+                
+            people.peopleGo()
                 
             }else {
                 print("The only responces are quit; people; animals;help \(currentInput)  is not an option")

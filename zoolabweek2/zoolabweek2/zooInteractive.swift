@@ -13,7 +13,7 @@ var io = Io()
 var currentInput: String = "q"
 var zoo = Zoo()
 var people = People()
-
+var animals = Animal()
 
 class  ZooInteractive {
     //private var books = Books()
@@ -43,9 +43,13 @@ class  ZooInteractive {
             else if currentInput == "people"{
                 //check out
                 
-                people.go()
+                people.peopleGo()
                 
-            } else if currentInput == "help"{
+            } else if currentInput == "animals"{
+                
+                animals.animalGo()
+                
+            }else if currentInput == "help"{
                 //io.writeMessage("people type: people\n animals type: animals\nhelp: help\nquit: quit")
                 
                 zoo.help()
